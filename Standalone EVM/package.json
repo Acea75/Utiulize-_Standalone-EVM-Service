@@ -1,0 +1,16 @@
+{
+  "name": "codespace-evm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "node": "npx hardhat node --hostname 0.0.0.0",
+    "deploy": "node scripts/deploy.js",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.10"
+  }
+}
